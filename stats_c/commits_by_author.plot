@@ -11,4 +11,4 @@ set grid y
 set ylabel "Commits"
 set xtics rotate
 set bmargin 6
-plot 'commits_by_author.dat' using 1:2 title "Kazuma Osanai" w lines, 'commits_by_author.dat' using 1:3 title "MisakiOgawa" w lines, 'commits_by_author.dat' using 1:4 title "soybeans" w lines
+plot 'commits_by_author.dat' using 1:2 title "Kazuma Osanai" w lines, 'commits_by_author.dat' using 1:3 title "g2116032" w lines, 'commits_by_author.dat' using 1:4 title "MisakiOgawa" w lines, 'commits_by_author.dat' using 1:5 title "soybeans" w lines
