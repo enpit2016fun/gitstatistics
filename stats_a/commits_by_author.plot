@@ -11,4 +11,4 @@ set grid y
 set ylabel "Commits"
 set xtics rotate
 set bmargin 6
-plot 'commits_by_author.dat' using 1:2 title "Satoshi Morohara" w lines, 'commits_by_author.dat' using 1:3 title "Kojiro Inoue" w lines, 'commits_by_author.dat' using 1:4 title "KanazawaShihori" w lines, 'commits_by_author.dat' using 1:5 title "s-morohara" w lines, 'commits_by_author.dat' using 1:6 title "Satoshi_moro" w lines, 'commits_by_author.dat' using 1:7 title "kanazawashihori" w lines
+plot 'commits_by_author.dat' using 1:2 title "Satoshi Morohara" w lines, 'commits_by_author.dat' using 1:3 title "KeisukeHamatani" w lines, 'commits_by_author.dat' using 1:4 title "Kojiro Inoue" w lines, 'commits_by_author.dat' using 1:5 title "Shingo Ito" w lines, 'commits_by_author.dat' using 1:6 title "Shingo" w lines, 'commits_by_author.dat' using 1:7 title "Satoshi_moro" w lines, 'commits_by_author.dat' using 1:8 title "KanazawaShihori" w lines, 'commits_by_author.dat' using 1:9 title "s-morohara" w lines, 'commits_by_author.dat' using 1:10 title "kanazawashihori" w lines
