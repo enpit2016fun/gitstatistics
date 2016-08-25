@@ -11,4 +11,4 @@ set grid y
 set ylabel "Lines"
 set xtics rotate
 set bmargin 6
-plot 'lines_of_code_by_author.dat' using 1:2 title "ron0hid" w lines, 'lines_of_code_by_author.dat' using 1:3 title "Shiun Nakahara" w lines, 'lines_of_code_by_author.dat' using 1:4 title "MurataTakuma" w lines
+plot 'lines_of_code_by_author.dat' using 1:2 title "ShioriTerasaki" w lines, 'lines_of_code_by_author.dat' using 1:3 title "ron0hid" w lines, 'lines_of_code_by_author.dat' using 1:4 title "Shiun Nakahara" w lines, 'lines_of_code_by_author.dat' using 1:5 title "MurataTakuma" w lines
