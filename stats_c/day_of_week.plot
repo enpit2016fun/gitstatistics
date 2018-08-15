@@ -4,6 +4,7 @@ set size 1.0,1.0
 set output 'day_of_week.png'
 unset key
 set xrange [0.5:7.5]
+set yrange [0:75]
 set xtics 1
 set grid y
 set ylabel "Commits"

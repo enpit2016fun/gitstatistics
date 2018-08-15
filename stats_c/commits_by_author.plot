@@ -3,7 +3,7 @@ set size 1.0,1.0
 
 set terminal png transparent size 640,480
 set output 'commits_by_author.png'
-set key left top
+set key off
 set xdata time
 set timefmt "%s"
 set format x "%Y-%m-%d"
